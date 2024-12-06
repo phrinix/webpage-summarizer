@@ -4,7 +4,7 @@ The Web Page Summarizer allows users to enter a URL and receive a summarized ver
 
 -----------Pre-Requsit-----------
 
-You will require
+You will require following credentials/key to be added to config.txt file:
 - Redis Host and Password
 - OpenAPI seceret Key
 
