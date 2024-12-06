@@ -1,0 +1,6 @@
+1. Run following commands in console to start application: 
+
+npm install 
+node app.js
+
+2. After that go to your browser and localhost:3000

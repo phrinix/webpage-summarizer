@@ -1,0 +1,9 @@
+[redis]
+host = --Add your redis Host here--
+port = -Add your redis port here--
+username = default
+password = --Add your redis Password here--
+ttl = 86400  # Time-to-live for Redis entries in seconds
+
+[api]
+openAPI = --Add your Open AI API here---

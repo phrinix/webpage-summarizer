@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Summarizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Web Page Summarizer</h1>
+        <form id="summarize-form">
+            <label for="url">Enter URL to Summarize:</label>
+            <input type="url" id="url" name="url" placeholder="e.g., https://example.com" required>
+            <button type="submit">Summarize</button>
+        </form>
+
+        <div id="result-section" style="display: none;">
+            <p id="summary"></p>
+            <p><strong>Summarized Date/Time:</strong> <span id="date-refreshed"></span></p>
+            <button id="refresh-button">Refresh Summarization Data</button>
+
+            <div class="tables">
+                <div class="table">
+                    <h3>Internal URLs</h3>
+                    <table id="internal-urls">
+                        <tr>
+                            <th>URL</th>
+                            <th>Click to Summarize</th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="table">
+                    <h3>External URLs</h3>
+                    <table id="external-urls">
+                        <tr>
+                            <th>URL</th>
+                            <th>Click to Summarize</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
